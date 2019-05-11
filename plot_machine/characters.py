@@ -13,7 +13,7 @@ class Character(object):
 
         self.gender = 'male'
         gender_swap = (
-            'female', 'mother', 'sister', 'daughter', 'aunt', 'neice')
+            'female', 'mother', 'sister', 'daughter', 'aunt', 'niece')
         if any(s in self.role for s in gender_swap):
             self.gender = 'female'
         self.generate_name()
